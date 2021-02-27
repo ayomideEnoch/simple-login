@@ -28,17 +28,6 @@ const routes = [
     name: 'Page2Up',
     component: Page2Up
   },
-  
-  {
-    path: '/page3in',
-    name: 'Page3In',
-    component: Page3In
-  },
-  {
-    path: '/page3up',
-    name: 'Page3Up',
-    component: Page3Up
-  },
 ]
 
 const router = new VueRouter({
