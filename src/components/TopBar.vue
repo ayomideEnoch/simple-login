@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="flex pt-4 justify-center">
-      <div class="bg-white rounded-full shadow-lg p-1">
+      <div class="bg-white rounded-full shadow-lg p-1.5">
         <router-link v-for="nav in navs" :key="nav.index" :to="{ name: nav.route }">
           <button
             @click="active = nav.id"
