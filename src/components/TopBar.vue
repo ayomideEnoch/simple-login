@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="h-0">
     <div class="flex pt-4 justify-center">
       <div class="bg-white rounded-full shadow-lg p-1">
         <router-link v-for="nav in navs" :key="nav.index" :to="{ name: nav.route }">

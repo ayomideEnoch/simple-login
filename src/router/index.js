@@ -5,7 +5,6 @@ import Page1Up from '../views/Page1/Signup'
 import Page2In from '../views/Page2/Login'
 import Page2Up from '../views/Page2/Signup'
 import Page3In from '../views/Page3/Login'
-import Page3Up from '../views/Page3/Signup'
 
 Vue.use(VueRouter)
 
@@ -35,11 +34,7 @@ const routes = [
     name: 'Page3In',
     component: Page3In
   },
-  {
-    path: '/page3up',
-    name: 'Page3Up',
-    component: Page3Up
-  },
+  
 ]
 
 const router = new VueRouter({
